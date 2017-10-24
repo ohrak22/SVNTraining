@@ -1,15 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ScriptA : MonoBehaviour {
+public class ScriptA : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-	
+	void Start()
+	{
+		for (int i = 0; i < 3; i++)
+		{
+			Debug.Log(i);
+
+			int num = i + i;
+
+			Debug.Log(num);
+		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 }
